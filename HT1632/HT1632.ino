@@ -396,9 +396,8 @@ void displayDecimal (float num, int x, int y)
     int one = num;
     while(one > 10)
         one = one - 10;
-    int temp = (num - ten*10 - one)/0.01;
-    int tenth = temp / 10;
-    int hundredth = temp;
+    int hundredth = (num - ten*10 - one)/0.01;
+    int tenth = hundredth / 10;
     while(hundredth > 10)
         hundredth = hundredth - 10;
  
