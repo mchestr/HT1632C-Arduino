@@ -1,3 +1,14 @@
+/***********************************************************************
+ * demo16x24.c - Arduino demo program for Holtek HT1632 LED driver chip,
+ *            As implemented on the Sure Electronics DE-DP016 display board
+ *            (16*24 dot matrix LED module.)
+ * Nov, 2008 by Bill Westfield ("WestfW")
+ *   Copyrighted and distributed under the terms of the Berkeley license
+ *   (copy freely, but include this notice of original author.)
+ *
+ * Dec 2010, FlorinC - adapted for 3216 display
+ ***********************************************************************/
+
 Code for arduino to use with the Sure Electronics HT1632 display.
 This code has been changed quite a bit from the original, and works with my current project.
 
