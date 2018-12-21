@@ -1,0 +1,28 @@
+{
+  "name": "HT1632C Arduino",
+  "version": "1.0.0",
+  "keywords": "ht1632c",
+  "description": "Library to interface with HT1632C LED chip",
+  "license": "MIT",
+  "authors":
+  {
+    "name": "Mike Chester",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/mchestr/HT1632C-Arduino.git",
+    "branch": "master"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif8266",
+  "dependencies": [],
+  "export": {
+    "include": [
+      "LICENSE",
+      "src/*",
+      "examples/*"
+    ]
+  }
+}
